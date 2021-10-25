@@ -1,0 +1,30 @@
+body{
+    background-color: #083b4c;
+}
+#container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+#container-square{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.square{
+    width: calc((100% / 7) - 50px);
+    margin: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.squareblue{
+    background-color:#1389b2 ;
+}
+.squarered{
+    background-color: #f0466f;
+}
+.squareyellow{
+    background-color: #ffd166;
+}
